@@ -71,19 +71,20 @@ function generateData() {
         console.log(Array.from(positivePerDate.values()))
         myChart.setOption({
             title: {
-              text: "Products per categories",
+              text: "Cases per Date",
             },
             tooltip: {},
             legend: {
-              data: ["Categories"],
+              data: ["Cases"],
             },
             xAxis: {
-              data: Array.from(positivePerDate.keys())//[],
+              data: Array.from(positivePerDate.keys()),//[],
+              name: 'Dates'
             },
             yAxis: {},
             series: [
               {
-                name: "Categories",
+                name: "Cases",
                 type: "bar",
                 data:  Array.from(positivePerDate.values()) // ,
               },
@@ -119,6 +120,9 @@ function getHistoricalData() {
     var option;
 
     option = {
+      title: {
+        text: "Death Timeline",
+      },
   xAxis: {
     type: 'category',
     data: reverseDates,
@@ -126,7 +130,7 @@ function getHistoricalData() {
   },
   yAxis: {
     type: 'value',
-    name: 'Deaths'
+    name: 'Deaths '
   },
   series: [
     {
