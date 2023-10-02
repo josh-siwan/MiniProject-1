@@ -1,0 +1,167 @@
+/* .img {
+  /* Set rules to fill background */
+  /* min-height: 100%;
+  min-width: 1024px; */
+	
+  /* Set up proportionate scaling */
+  /* width: 100%;
+  height: auto; */
+	
+  /* Set up positioning */
+  /* position: fixed;
+  top: 0;
+  left: 0;
+
+  width:100% */
+
+
+   .bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  .bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  } 
+
+  .title {
+    font-size: 75px;
+    font-weight:600;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left:37%;
+    text-align: center;
+   
+  }
+
+
+
+  .date {
+    color: white;
+    position: absolute;
+    position: absolute;
+    top: 35%;
+    left:38%;
+    line-height: 70%;
+    font-size: 35px;
+    font-weight:900;
+  }
+  
+  .temp  {
+    color: white;
+    position: absolute;
+    position: absolute;
+    top: 35%;
+    left:53%;
+    line-height: 70%;
+    font-size: 35px;
+    font-weight:900;
+    line-height: 70%;
+  }
+/* 
+  .temp p  {
+    font-weight: 100;
+    display: inline-block; 
+  } */
+
+  .past-weather {
+    position: relative;
+    margin-top: 33%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    color: white;
+    
+
+    font-size: 20px;
+  }
+
+  .history {
+    background-color: grey;
+    opacity: 80%;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    /* font-size: 14px; */
+    
+  }
+
+  .currCovid {
+    position: absolute;
+
+    top: 35%;
+    left: 35.7%;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    background-color: aqua;
+    /* background-color: red; */
+
+    /* outline-color: red; */
+    /* outline-style: solid; */
+
+    width: 30%;
+
+    animation: pulse 5s infinite;
+
+   
+    
+  }
+
+  @keyframes pulse {
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color:aqua;
+    }
+  }
+  .covidDate {
+    /* justify-content: center;
+    padding: 5px;
+    text-align: center; */
+    background-color: grey
+  }
+
+  .chart-1 {
+    position: absolute;
+     background-color: white;
+    color: white; 
+    top:100%; 
+    left: 10%
+    
+  }
+
+  .chart-2 {
+    position: absolute;
+     background-color: white;
+    color: white; 
+    top:100%; 
+    left: 51%
+    
+  }
+
+  .blog {
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    width: 5%;
+    height: 3%;
+    background-color: white;
+  }

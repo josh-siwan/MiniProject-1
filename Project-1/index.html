@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="bg">
+        <img class=img src="../covid2.jpg" alt="Image">
+    </div>
+
+  <div  class="title">Covid-19 Report</div>
+
+    <div class="currCovid">
+      <div class="covidData">
+        <h2 id="currentDate">Date</h2>
+        <p id="day">September 31</p>
+      </div>
+      <div class="covidData">
+        <h2 id="currentPositive">Covid-19 Positive</h2>
+        <p id="positive"> positive </p>
+      </div>
+    </div>
+
+
+    <div class="past-weather">
+        <div class="history">
+          <h3 id = "Date-6"> abc123</h3>
+          <p id="positivie-6">Positive: </p>
+          <p id="deathTotal-6">Death Total: </p>
+          <p id="deathIncrease-6">Death Increase: </p>
+        </div>
+        <div class="history">
+            <h3 id = "Date-5"> abc123</h3>
+            <p id="positivie-5">Positive: </p>
+            <p id="deathTotal-5">Death Total: </p>
+            <p id="deathIncrease-5">Death Increase: </p>
+          </div>
+          <div class="history">
+            <h3 id = "Date-4"> abc123</h3>
+            <p id="positivie-4">Positive: </p>
+            <p id="deathTotal-4">Death Total: </p>
+            <p id="deathIncrease-4">Death Increase: </p>
+          </div>
+          <div class="history">
+            <h3 id = "Date-3"> abc123</h3>
+            <p id="positivie-3">Positive: </p>
+            <p id="deathTotal-3">Death Total: </p>
+            <p id="deathIncrease-3">Death Increase: </p>
+          </div>
+          <div class="history">
+            <h3 id = "Date-2"> abc123</h3>
+            <p id="positivie-2">Positive: </p>
+            <p id="deathTotal-2">Death Total: </p>
+            <p id="deathIncrease-2">Death Increase: </p>
+          </div>
+          <div class="history">
+            <h3 id = "Date-1"> abc123</h3>
+            <p id="positivie-1">Positive: </p>
+            <p id="deathTotal-1">Death Total: </p>
+            <p id="deathIncrease-1">Death Increase: </p>
+          </div>
+          <div class="history">
+            <h3 id = "Date-0"> abc123</h3>
+            <p id="positivie-0">Positive: </p>
+            <p id="deathTotal-0">Death Total: </p>
+            <p id="deathIncrease-0">Death Increase: </p>
+          </div>
+    </div>
+
+
+<button onClick="clickedButton()" id="blogPage" class="blog" > Blog</button>
+
+    <!-- <div class="chart" id="productsChart" style="width: 800px; height: 600px"></div>  -->
+
+    <div class="chart-1" id="productsChart" style="width: 800px; height: 600px"></div>
+
+    <div class="chart-2" id="container" style="width: 800px; height: 600px"></div>
+    <!-- <div id="container" style="height: 100%"></div> -->
+</body>
+</html>
+
